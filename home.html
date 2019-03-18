@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>旅有友</title>
+	<link rel="stylesheet" href="css/common.css"/>
+	<script src="js/jquery_1.min.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div class="skinBg" style="background-image: url('images/1.jpg');">
+		</div>
+		<header id="header">
+			<div class="weather fl">
+				<span class="cityW">
+					<!--<span>嘉定：</span>-->
+					<span>
+						<span class="weatherIcon wI1"></span>
+						<!--<span>-1 ~ 5℃</span>-->
+					</span>
+				</span>
+			
+				<span class="pollution">
+					<!--<span>空气质量：183</span>-->
+					<!--<span class="polutionLevel">中度污染</span>-->
+				</span>
+				<div class="cityWeather">
+					
+				</div>
+			</div>
+			<nav class="headNavs fr tr">
+			
+				<a href="login_user.html" style="color:black">用户登录  </a>
+				<a href="login_admin.html" style="color:black">管理员登录  </a>
+				<a href="about.html" style="color:black">关于  </a>
+				<a href="help.html" style="color:black">帮助  </a>
+				<!--<a href="login.html"><span class="s-icon s-icon-skin"></span><span>登陆后台</span></a>
+				<a><span class="s-icon s-icon-line"></span></a>
+				 
+				<a href="login_user.html"><span class="s-icon s-icon-skin"></span><span>学生登陆</span></a>-->
+				 
+				
+				 
+			</nav>
+		</header>
+		<div class="content tc" >
+			<!--<p class="logo"><img width="270" height="129" src="images/xinlogo.png" alt="logo" /></p>-->
+			<p style = "font-size:70pt;color:#AAFFC1;margin-top:130px;padding-bottom:100px"><b>旅有友</b></p>
+			<div class="searchBox">
+				<form action="help.php" method="post">
+					<input type="text" class="searchIpt f14" name="placename" placeholder="输入地点名"   maxlength="100" autocomplete="off"/>
+					<input type="submit" class="btn cp" name="search" value="lv搜索" />
+				</form>
+			</div>
+			 
+				  
+	</div>
+	 <footer id="footer" class="tc">©2017 旅有游出品 同ICP证00001217号</footer>
+	 
+</body>
+</html>
